@@ -1,0 +1,192 @@
+Please enter the filename that contains the data:
+CS170_Small_DataSet__103.txt
+DataFrame read from CS170_Small_DataSet__103.txt
+Enter 1 for forward selection and 2 for backward elimination:
+1
+The dataset has 16 features, not including class atribute, and 500 instances.
+Begining Search:
+On iteration 0:
+	Testing no features with accuracy 80.80%. Features tested: []
+On iteration 1
+	Testing adding feature 1 with accuracy 69.40%. Features tested: [1]
+	Testing adding feature 2 with accuracy 67.00%. Features tested: [2]
+	Testing adding feature 3 with accuracy 70.00%. Features tested: [3]
+	Testing adding feature 4 with accuracy 70.40%. Features tested: [4]
+	Testing adding feature 5 with accuracy 84.80%. Features tested: [5]
+	Testing adding feature 6 with accuracy 76.40%. Features tested: [6]
+	Testing adding feature 7 with accuracy 67.40%. Features tested: [7]
+	Testing adding feature 8 with accuracy 69.60%. Features tested: [8]
+	Testing adding feature 9 with accuracy 69.40%. Features tested: [9]
+	Testing adding feature 10 with accuracy 66.20%. Features tested: [10]
+	Testing adding feature 11 with accuracy 67.80%. Features tested: [11]
+	Testing adding feature 12 with accuracy 71.00%. Features tested: [12]
+	Testing adding feature 13 with accuracy 69.40%. Features tested: [13]
+	Testing adding feature 14 with accuracy 68.00%. Features tested: [14]
+	Testing adding feature 15 with accuracy 71.40%. Features tested: [15]
+	Testing adding feature 16 with accuracy 69.00%. Features tested: [16]
+Feature set [5] was the best, with accuracy 84.80%
+On iteration 2
+	Testing adding feature 1 with accuracy 78.20%. Features tested: [5, 1]
+	Testing adding feature 2 with accuracy 85.20%. Features tested: [5, 2]
+	Testing adding feature 3 with accuracy 82.20%. Features tested: [5, 3]
+	Testing adding feature 4 with accuracy 80.80%. Features tested: [5, 4]
+	Testing adding feature 6 with accuracy 97.40%. Features tested: [5, 6]
+	Testing adding feature 7 with accuracy 79.80%. Features tested: [5, 7]
+	Testing adding feature 8 with accuracy 82.20%. Features tested: [5, 8]
+	Testing adding feature 9 with accuracy 82.20%. Features tested: [5, 9]
+	Testing adding feature 10 with accuracy 85.20%. Features tested: [5, 10]
+	Testing adding feature 11 with accuracy 84.20%. Features tested: [5, 11]
+	Testing adding feature 12 with accuracy 84.20%. Features tested: [5, 12]
+	Testing adding feature 13 with accuracy 81.20%. Features tested: [5, 13]
+	Testing adding feature 14 with accuracy 82.80%. Features tested: [5, 14]
+	Testing adding feature 15 with accuracy 85.20%. Features tested: [5, 15]
+	Testing adding feature 16 with accuracy 83.00%. Features tested: [5, 16]
+Feature set [5, 6] was the best, with accuracy 97.40%
+On iteration 3
+	Testing adding feature 1 with accuracy 94.80%. Features tested: [5, 6, 1]
+	Testing adding feature 2 with accuracy 91.80%. Features tested: [5, 6, 2]
+	Testing adding feature 3 with accuracy 92.80%. Features tested: [5, 6, 3]
+	Testing adding feature 4 with accuracy 93.40%. Features tested: [5, 6, 4]
+	Testing adding feature 7 with accuracy 93.80%. Features tested: [5, 6, 7]
+	Testing adding feature 8 with accuracy 94.40%. Features tested: [5, 6, 8]
+	Testing adding feature 9 with accuracy 92.60%. Features tested: [5, 6, 9]
+	Testing adding feature 10 with accuracy 94.20%. Features tested: [5, 6, 10]
+	Testing adding feature 11 with accuracy 94.00%. Features tested: [5, 6, 11]
+	Testing adding feature 12 with accuracy 93.40%. Features tested: [5, 6, 12]
+	Testing adding feature 13 with accuracy 92.60%. Features tested: [5, 6, 13]
+	Testing adding feature 14 with accuracy 93.40%. Features tested: [5, 6, 14]
+	Testing adding feature 15 with accuracy 95.60%. Features tested: [5, 6, 15]
+	Testing adding feature 16 with accuracy 93.80%. Features tested: [5, 6, 16]
+Feature set [5, 6, 15] was the best, with accuracy 95.60%
+Warning! Accuracy has decreased.
+On iteration 4
+	Testing adding feature 1 with accuracy 90.40%. Features tested: [5, 6, 15, 1]
+	Testing adding feature 2 with accuracy 89.20%. Features tested: [5, 6, 15, 2]
+	Testing adding feature 3 with accuracy 90.40%. Features tested: [5, 6, 15, 3]
+	Testing adding feature 4 with accuracy 91.00%. Features tested: [5, 6, 15, 4]
+	Testing adding feature 7 with accuracy 89.40%. Features tested: [5, 6, 15, 7]
+	Testing adding feature 8 with accuracy 90.80%. Features tested: [5, 6, 15, 8]
+	Testing adding feature 9 with accuracy 92.20%. Features tested: [5, 6, 15, 9]
+	Testing adding feature 10 with accuracy 91.60%. Features tested: [5, 6, 15, 10]
+	Testing adding feature 11 with accuracy 90.20%. Features tested: [5, 6, 15, 11]
+	Testing adding feature 12 with accuracy 90.00%. Features tested: [5, 6, 15, 12]
+	Testing adding feature 13 with accuracy 91.60%. Features tested: [5, 6, 15, 13]
+	Testing adding feature 14 with accuracy 89.40%. Features tested: [5, 6, 15, 14]
+	Testing adding feature 16 with accuracy 91.60%. Features tested: [5, 6, 15, 16]
+Feature set [5, 6, 15, 9] was the best, with accuracy 92.20%
+Warning! Accuracy has decreased.
+On iteration 5
+	Testing adding feature 1 with accuracy 86.00%. Features tested: [5, 6, 15, 9, 1]
+	Testing adding feature 2 with accuracy 86.00%. Features tested: [5, 6, 15, 9, 2]
+	Testing adding feature 3 with accuracy 88.20%. Features tested: [5, 6, 15, 9, 3]
+	Testing adding feature 4 with accuracy 85.20%. Features tested: [5, 6, 15, 9, 4]
+	Testing adding feature 7 with accuracy 85.60%. Features tested: [5, 6, 15, 9, 7]
+	Testing adding feature 8 with accuracy 87.40%. Features tested: [5, 6, 15, 9, 8]
+	Testing adding feature 10 with accuracy 87.80%. Features tested: [5, 6, 15, 9, 10]
+	Testing adding feature 11 with accuracy 87.80%. Features tested: [5, 6, 15, 9, 11]
+	Testing adding feature 12 with accuracy 86.60%. Features tested: [5, 6, 15, 9, 12]
+	Testing adding feature 13 with accuracy 88.40%. Features tested: [5, 6, 15, 9, 13]
+	Testing adding feature 14 with accuracy 86.00%. Features tested: [5, 6, 15, 9, 14]
+	Testing adding feature 16 with accuracy 86.40%. Features tested: [5, 6, 15, 9, 16]
+Feature set [5, 6, 15, 9, 13] was the best, with accuracy 88.40%
+Warning! Accuracy has decreased.
+On iteration 6
+	Testing adding feature 1 with accuracy 82.40%. Features tested: [5, 6, 15, 9, 13, 1]
+	Testing adding feature 2 with accuracy 83.20%. Features tested: [5, 6, 15, 9, 13, 2]
+	Testing adding feature 3 with accuracy 80.20%. Features tested: [5, 6, 15, 9, 13, 3]
+	Testing adding feature 4 with accuracy 81.20%. Features tested: [5, 6, 15, 9, 13, 4]
+	Testing adding feature 7 with accuracy 83.60%. Features tested: [5, 6, 15, 9, 13, 7]
+	Testing adding feature 8 with accuracy 83.20%. Features tested: [5, 6, 15, 9, 13, 8]
+	Testing adding feature 10 with accuracy 81.80%. Features tested: [5, 6, 15, 9, 13, 10]
+	Testing adding feature 11 with accuracy 82.60%. Features tested: [5, 6, 15, 9, 13, 11]
+	Testing adding feature 12 with accuracy 83.40%. Features tested: [5, 6, 15, 9, 13, 12]
+	Testing adding feature 14 with accuracy 83.00%. Features tested: [5, 6, 15, 9, 13, 14]
+	Testing adding feature 16 with accuracy 84.00%. Features tested: [5, 6, 15, 9, 13, 16]
+Feature set [5, 6, 15, 9, 13, 16] was the best, with accuracy 84.00%
+Warning! Accuracy has decreased.
+On iteration 7
+	Testing adding feature 1 with accuracy 81.00%. Features tested: [5, 6, 15, 9, 13, 16, 1]
+	Testing adding feature 2 with accuracy 79.40%. Features tested: [5, 6, 15, 9, 13, 16, 2]
+	Testing adding feature 3 with accuracy 78.40%. Features tested: [5, 6, 15, 9, 13, 16, 3]
+	Testing adding feature 4 with accuracy 77.00%. Features tested: [5, 6, 15, 9, 13, 16, 4]
+	Testing adding feature 7 with accuracy 78.80%. Features tested: [5, 6, 15, 9, 13, 16, 7]
+	Testing adding feature 8 with accuracy 80.20%. Features tested: [5, 6, 15, 9, 13, 16, 8]
+	Testing adding feature 10 with accuracy 80.20%. Features tested: [5, 6, 15, 9, 13, 16, 10]
+	Testing adding feature 11 with accuracy 79.60%. Features tested: [5, 6, 15, 9, 13, 16, 11]
+	Testing adding feature 12 with accuracy 80.40%. Features tested: [5, 6, 15, 9, 13, 16, 12]
+	Testing adding feature 14 with accuracy 80.40%. Features tested: [5, 6, 15, 9, 13, 16, 14]
+Feature set [5, 6, 15, 9, 13, 16, 1] was the best, with accuracy 81.00%
+Warning! Accuracy has decreased.
+On iteration 8
+	Testing adding feature 2 with accuracy 78.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 2]
+	Testing adding feature 3 with accuracy 76.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 3]
+	Testing adding feature 4 with accuracy 78.80%. Features tested: [5, 6, 15, 9, 13, 16, 1, 4]
+	Testing adding feature 7 with accuracy 77.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 7]
+	Testing adding feature 8 with accuracy 76.80%. Features tested: [5, 6, 15, 9, 13, 16, 1, 8]
+	Testing adding feature 10 with accuracy 76.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 10]
+	Testing adding feature 11 with accuracy 80.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11]
+	Testing adding feature 12 with accuracy 77.00%. Features tested: [5, 6, 15, 9, 13, 16, 1, 12]
+	Testing adding feature 14 with accuracy 79.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 14]
+Feature set [5, 6, 15, 9, 13, 16, 1, 11] was the best, with accuracy 80.60%
+Warning! Accuracy has decreased.
+On iteration 9
+	Testing adding feature 2 with accuracy 76.00%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 2]
+	Testing adding feature 3 with accuracy 75.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 3]
+	Testing adding feature 4 with accuracy 75.00%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 4]
+	Testing adding feature 7 with accuracy 76.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 7]
+	Testing adding feature 8 with accuracy 77.80%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 8]
+	Testing adding feature 10 with accuracy 76.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 10]
+	Testing adding feature 12 with accuracy 75.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 12]
+	Testing adding feature 14 with accuracy 78.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14]
+Feature set [5, 6, 15, 9, 13, 16, 1, 11, 14] was the best, with accuracy 78.20%
+Warning! Accuracy has decreased.
+On iteration 10
+	Testing adding feature 2 with accuracy 72.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 2]
+	Testing adding feature 3 with accuracy 76.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 3]
+	Testing adding feature 4 with accuracy 73.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 4]
+	Testing adding feature 7 with accuracy 78.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7]
+	Testing adding feature 8 with accuracy 75.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 8]
+	Testing adding feature 10 with accuracy 74.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 10]
+	Testing adding feature 12 with accuracy 74.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 12]
+Feature set [5, 6, 15, 9, 13, 16, 1, 11, 14, 7] was the best, with accuracy 78.40%
+On iteration 11
+	Testing adding feature 2 with accuracy 72.00%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 2]
+	Testing adding feature 3 with accuracy 74.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 3]
+	Testing adding feature 4 with accuracy 71.80%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 4]
+	Testing adding feature 8 with accuracy 76.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8]
+	Testing adding feature 10 with accuracy 74.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 10]
+	Testing adding feature 12 with accuracy 72.80%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 12]
+Feature set [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8] was the best, with accuracy 76.40%
+Warning! Accuracy has decreased.
+On iteration 12
+	Testing adding feature 2 with accuracy 72.80%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 2]
+	Testing adding feature 3 with accuracy 72.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 3]
+	Testing adding feature 4 with accuracy 72.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 4]
+	Testing adding feature 10 with accuracy 71.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 10]
+	Testing adding feature 12 with accuracy 74.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12]
+Feature set [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12] was the best, with accuracy 74.20%
+Warning! Accuracy has decreased.
+On iteration 13
+	Testing adding feature 2 with accuracy 71.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 2]
+	Testing adding feature 3 with accuracy 70.80%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 3]
+	Testing adding feature 4 with accuracy 72.60%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4]
+	Testing adding feature 10 with accuracy 72.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 10]
+Feature set [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4] was the best, with accuracy 72.60%
+Warning! Accuracy has decreased.
+On iteration 14
+	Testing adding feature 2 with accuracy 71.80%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4, 2]
+	Testing adding feature 3 with accuracy 69.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4, 3]
+	Testing adding feature 10 with accuracy 68.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4, 10]
+Feature set [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4, 2] was the best, with accuracy 71.80%
+Warning! Accuracy has decreased.
+On iteration 15
+	Testing adding feature 3 with accuracy 67.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4, 2, 3]
+	Testing adding feature 10 with accuracy 69.40%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4, 2, 10]
+Feature set [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4, 2, 10] was the best, with accuracy 69.40%
+Warning! Accuracy has decreased.
+On iteration 16
+	Testing adding feature 3 with accuracy 67.20%. Features tested: [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4, 2, 10, 3]
+Feature set [5, 6, 15, 9, 13, 16, 1, 11, 14, 7, 8, 12, 4, 2, 10, 3] was the best, with accuracy 67.20%
+Warning! Accuracy has decreased.
+Finished search. Greatest accuracy = 97.40% found with features [5, 6]
+Elapsed time: 0.36 seconds
